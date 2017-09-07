@@ -1,0 +1,7 @@
+Tyler Conklin
+Web Programming asst. 2
+9/7/2017
+
+	I first began my experience with computers at the early age of 7. My father bought our first P.C. which he built himself. I later took programming classes in high school. I learned visual basic at first, and then began more intense study with java. I went to several programming competitions and that exposed me to some real world problem solving and that I was always interested in. I like to solve problems or find algorithms to solve problems. I eventually learned some c++ in college, and eventually html. Last semester I worked on a project to develop a website with MEAN stack. I gained rough insight on how javascript works as well as http requests. I am not very experienced with full stack stuff, but have the know how to figure it out with some guidance and study. 
+
+	With this class I wish to learn how to properly complete the project I started last semester. I would like to know how to design my own site from the ground up, properly, with vast functionality without having to resort to cookie cutter content management systems. I have experience with Wordpress, but I don’t believe that it is the optimal way to be designing sites. I wish to eventually run some sort of business, and I would like to know how to properly design sites so I can improve my own business. 
