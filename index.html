@@ -1,37 +1,36 @@
-<!DOCTYPE html>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script>
-    $(document).ready(function()
-    {
-        $(".dropdown").mouseenter(function()
-        {
-            $(this).children().fadeIn('fast');
-        });
-        
-        $(".dropdown").mouseleave(function()
-        {
-            $(".dropdown #list").fadeOut('fast');
-        });
-    });
+//todo: Login - changes to logout upon sign in,
+        Signup - changes to username upon sign in, 
+        Routines,
+        Wellness,
+        Home: customizable to display stats headlining a major stat with 3 sub stats
 
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="navigation.js"></script>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <html>
-    <div class="dropdown">
-        <h3>Menu</h3>
-        <div id="list">
-            <a href="#">Menu 1</a>
-            <a href="#">Menu 2</a>
-            <a href="#">Menu 3</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <h3>Services</h3>
-        <div id="list">
-            <a href="#">Service 1</a>
-            <a href="#">Service 2</a>
-        </div>
-    </div>
+    <body>
+        <header>
+            <div class="dropdown">
+                <div id="title">Menu</div>
+                <div id="list">
+                    <a href="#">Menu 1</a>
+                    <a href="#">Menu 2</a>
+                    <a href="#">Menu 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div id="title">Services</div>
+                <div id="list">
+                    <a href="#">Service 1</a>
+                    <a href="#">Service 2</a>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>

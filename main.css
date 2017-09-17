@@ -1,6 +1,7 @@
 .dropdown #list a{
     display: block;
     clear: both;
+    margin: 0px;
     padding: 10px 20px 10px 20px;
     color: white;
     background: #929292;
@@ -9,19 +10,21 @@
 .dropdown{
     float: left;
 }
-.dropdown h3{
+.dropdown #title{
     margin: 0px;
     padding: 10px 20px 10px 20px;
     color: white;
     background: #323232;
 }
-.dropdown h3:hover{
+.dropdown #title:hover{
     color: red;
 }
 .dropdown #list{
     display:none;
 }
-
+.dropdown #list a:hover{
+    color: blue;
+}
 html{
     background: #323232;
 }
